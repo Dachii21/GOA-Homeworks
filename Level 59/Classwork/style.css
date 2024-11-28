@@ -1,0 +1,17 @@
+div {
+    width: 100%;
+    height: 875px;
+    border: 1px solid black;
+    background-image: url(https://wallpapercave.com/wp/GD9rMAh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    animation: animation 10s infinite;
+}
+
+@keyframes animation {
+    0% {background-image: url(https://wallpapercave.com/wp/GD9rMAh.jpg);}
+    50% {background-image: url(https://images3.alphacoders.com/600/600155.jpg);}
+    100% {background-image: url(https://wallpaperaccess.com/full/429919.jpg);}
+}
