@@ -1,0 +1,18 @@
+.div1 {
+    background-color: black;
+}
+
+.div2 {
+    width: 100px;
+    height: 200px;
+}
+
+div:hover {
+    background-color: red;
+    rotate: 280px;
+}
+
+div:hover {
+    width: 300px;
+    height: 600px;
+}

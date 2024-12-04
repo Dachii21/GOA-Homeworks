@@ -1,0 +1,38 @@
+:root {
+    --color: red;
+    --background-color: black;
+    --font-size: medium;
+    --font-family: cursive;
+   --box-shadow: 10px;
+    --border: 10px solid yellow;
+    --border-radius: 10px;
+    --margin: auto;
+    --padding: 25px 50px 75px;
+    --position: static;
+}
+
+.div1 {
+    color: var(--color);
+    background-color: var(--background-color);
+    --font-size: var(--font-size);
+    --font-family: var(--font-family);
+    --box-shadow: var(--box-shadow);
+    --border: var(--border);
+    --border-radius: var(--border-radius);
+    --margin: var(--margin);
+    --padding: var(--padding);
+    --position: var(--position);
+}
+
+.div2 {
+    color: var(--color);
+    background-color: var(--background-color);
+    --font-size: var(--font-size);
+    --font-family: var(--font-family);
+    --box-shadow: var(--box-shadow);
+    --border: var(--border);
+    --border-radius: var(--border-radius);
+    --margin: var(--margin);
+    --padding: var(--padding);
+    --position: var(--position);
+}
