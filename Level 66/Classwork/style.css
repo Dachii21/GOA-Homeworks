@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    height: 500px;
+    width: 500px;
+    margin-top: 150px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border: 10px solid black;
+    -webkit-border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.5);
+    -webkit-transform: rotate(50deg);
+}
