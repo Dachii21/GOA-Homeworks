@@ -1,0 +1,61 @@
+body {
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header {
+    text-align: center;
+}
+
+header h4 {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+img {
+    width: 600px;
+    height: 600px;
+    border: 5px solid black;
+    margin-left: 425px;
+    margin-right: 425px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 690px;
+    margin-right: 690px;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+}
+  
+li {
+  float: left;
+}
+  
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+@media (max-width: 500px) {
+    img {
+        width: 300px;
+        height: 300px;
+    }
+}
