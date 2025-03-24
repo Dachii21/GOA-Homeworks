@@ -2,7 +2,7 @@ let book = {
     title: "GOALS!",
     author: "Bryan Trace",
     year: 2000,
-    genre: "self-improvement",
+    genre: "Self-improvement",
     price: 15.99
 };
 
